@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4efe9" />
+    <meta name="description" content="Surat terakhir dari Gerdy untuk Fitria — sebuah permintaan maaf, ucapan terima kasih, dan perpisahan yang tulus." />
+    <title>Untuk Fitria — Surat Terakhir dari Gerdy</title>
+    <link rel="icon" href="mark.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="paper-grain" aria-hidden="true"></div>
+    <div class="scroll-line" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Kembali ke awal surat">
+        <span class="wordmark-mark">g</span>
+        <span>surat terakhir</span>
+      </a>
+      <button class="sound-control" id="soundControl" type="button" aria-pressed="false" aria-label="Nyalakan musik lembut">
+        <span class="sound-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span id="soundLabel">Suara sunyi</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy reveal is-visible">
+          <p class="eyebrow"><span></span> sebuah surat yang tertunda</p>
+          <h1 id="hero-title">Untuk <em>Fitria.</em></h1>
+          <p class="hero-subtitle">Surat yang mungkin seharusnya<br class="desktop-only" /> sudah lama aku tulis.</p>
+          <div class="hero-meta">
+            <span>01 / 05</span>
+            <span>GERDY → FITRIA</span>
+          </div>
+        </div>
+
+        <div class="envelope-stage reveal is-visible" style="--delay: 160ms">
+          <div class="envelope-shadow"></div>
+          <div class="envelope" aria-hidden="true">
+            <div class="envelope-flap"></div>
+            <div class="envelope-front"></div>
+            <div class="envelope-letter-tease">
+              <span>Fitria,</span>
+              <small>aku minta maaf.</small>
+            </div>
+            <div class="envelope-seal">g</div>
+          </div>
+          <button class="primary-button" id="openLetter" type="button">
+            <span>Buka Surat</span>
+            <span class="button-arrow" aria-hidden="true">↘</span>
+          </button>
+          <p class="microcopy">baca ketika kamu siap</p>
+        </div>
+
+        <div class="hero-side-note" aria-hidden="true">
+          <span>scroll perlahan</span>
+          <span class="side-arrow">↓</span>
+        </div>
+      </section>
+
+      <section class="letter-section locked reveal" id="letter" aria-labelledby="letter-title">
+        <div class="section-marker"><span>02</span><span>isi surat</span></div>
+        <div class="letter-card">
+          <div class="letter-topline">
+            <span>Untuk dibaca sekali, lalu dilepaskan.</span>
+            <span class="letter-date">01.10.2026</span>
+          </div>
+          <div class="letter-content">
+            <h2 id="letter-title">Fitria,</h2>
+            <div class="letter-body">
+              <p>Aku membuat halaman ini bukan untuk meminta kamu kembali, bukan juga untuk memaksa kamu menjawab apa pun.</p>
+              <p>Aku cuma ingin menyampaikan sesuatu yang mungkin selama ini belum pernah aku sampaikan dengan baik.</p>
+              <p class="emphasis">Aku minta maaf.</p>
+              <p>Maaf untuk semua kesalahan aku, untuk hal-hal yang mungkin pernah membuat kamu tidak nyaman, dan untuk setiap kali kehadiranku justru mengganggu ketenanganmu.</p>
+              <p>Aku sadar, mungkin ada hal-hal yang tidak bisa diperbaiki hanya dengan kata maaf.</p>
+              <p>Karena itu, kali ini aku tidak ingin meminta apa-apa darimu.</p>
+              <p>Aku cuma ingin mengucapkan terima kasih.</p>
+              <p>Terima kasih karena pernah menjadi bagian dari hidupku. Terima kasih untuk waktu, perhatian, cerita, dan kenangan yang pernah kita punya.</p>
+              <p>Mungkin setelah ini jalan kita memang harus benar-benar berbeda.</p>
+              <p>Dan aku akan belajar menerima itu.</p>
+              <p>Setelah surat ini, aku berjanji untuk menghargai ruang dan kehidupanmu. Aku tidak akan mengganggu kamu lagi. Bukan karena aku membenci kamu, tapi karena aku sadar bahwa terkadang bentuk sayang yang terakhir adalah belajar melepaskan.</p>
+              <p>Aku berharap kamu baik-baik saja.</p>
+              <p>Semoga hidupmu dipenuhi hal-hal baik, orang-orang baik, dan kebahagiaan yang kamu cari.</p>
+              <p>Tidak perlu membalas surat ini.</p>
+              <p>Cukup baca sampai selesai, dan setelah itu anggap surat ini sebagai penutup dari semua yang pernah ada di antara kita.</p>
+              <p>Sekali lagi, maaf.</p>
+              <p>Dan terima kasih untuk semuanya.</p>
+            </div>
+            <div class="signature">— Gerdy</div>
+          </div>
+        </div>
+        <div class="locked-note" aria-hidden="true"><span>✦</span> buka amplopnya terlebih dahulu</div>
+      </section>
+
+      <section class="vow-section reveal" id="janji" aria-labelledby="vow-title">
+        <div class="section-marker light"><span>03</span><span>janji terakhir</span></div>
+        <div class="vow-intro">
+          <p class="eyebrow light-eyebrow"><span></span> tanpa syarat apa pun</p>
+          <h2 id="vow-title">Janji <em>terakhirku.</em></h2>
+          <p class="vow-lead">Ada beberapa hal yang ingin aku bawa pergi dengan tenang.</p>
+        </div>
+        <ol class="vow-list">
+          <li><span class="vow-number">01</span><span>Aku akan menghargai batasmu.</span></li>
+          <li><span class="vow-number">02</span><span>Aku tidak akan mengganggu kehidupanmu lagi.</span></li>
+          <li><span class="vow-number">03</span><span>Aku akan belajar menerima bahwa tidak semua hal harus kembali seperti dulu.</span></li>
+          <li><span class="vow-number">04</span><span>Dan aku akan melanjutkan hidupku dengan membawa pelajaran dari semua yang pernah terjadi.</span></li>
+        </ol>
+      </section>
+
+      <section class="memories-section reveal" id="kenangan" aria-labelledby="memories-title">
+        <div class="section-marker"><span>04</span><span>kenangan</span></div>
+        <div class="memories-heading">
+          <p class="eyebrow"><span></span> disimpan baik-baik</p>
+          <h2 id="memories-title">Terima kasih untuk kenangan<br class="desktop-only" /> yang pernah ada.</h2>
+          <p>Ruang kecil ini sengaja kubiarkan kosong. Kalau suatu hari ingin, kamu bisa mengisinya dengan cerita versimu sendiri.</p>
+        </div>
+        <div class="polaroid-wall">
+          <div class="tape tape-one" aria-hidden="true"></div>
+          <div class="polaroid polaroid-one">
+            <div class="placeholder-art"><span>+</span><small>tempat foto</small></div>
+            <p>kenangan 01</p>
+          </div>
+          <div class="polaroid polaroid-two">
+            <div class="placeholder-art"><span>+</span><small>tempat foto</small></div>
+            <p>kenangan 02</p>
+          </div>
+          <div class="polaroid polaroid-three">
+            <div class="placeholder-art"><span>+</span><small>tempat foto</small></div>
+            <p>kenangan 03</p>
+          </div>
+          <div class="scribble-note">yang baik,<br />biarkan tinggal<br />sebagai hangat.</div>
+        </div>
+      </section>
+
+      <section class="goodbye-section reveal" id="penutup" aria-labelledby="goodbye-title">
+        <div class="goodbye-orbit orbit-one" aria-hidden="true"></div>
+        <div class="goodbye-orbit orbit-two" aria-hidden="true"></div>
+        <div class="section-marker light"><span>05</span><span>penutup</span></div>
+        <div class="goodbye-inner">
+          <p class="eyebrow light-eyebrow"><span></span> sampai di sini</p>
+          <h2 id="goodbye-title">Selamat tinggal,<br /><em>Fitria.</em></h2>
+          <p class="goodbye-copy">Semoga setelah ini kita sama-sama menemukan ketenangan dengan jalan kita masing-masing.</p>
+          <div class="goodbye-signature">— GERDY</div>
+          <button class="close-button" id="closeLetter" type="button">
+            <span>Menutup Surat</span>
+            <span class="button-arrow" aria-hidden="true">↘</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Surat terakhir dari Gerdy untuk Fitria.</span>
+      <span>sebuah penutup, bukan permintaan</span>
+    </footer>
+
+    <div class="farewell-overlay" id="farewellOverlay" role="dialog" aria-modal="true" aria-labelledby="farewellTitle" aria-hidden="true">
+      <div class="overlay-content">
+        <p class="overlay-kicker">surat selesai</p>
+        <h2 id="farewellTitle">Terima kasih sudah<br /><em>membaca sampai akhir.</em></h2>
+        <p class="overlay-final">Surat ini selesai.<br />Dan kali ini, aku benar-benar akan melangkah.</p>
+        <span class="overlay-mark">g</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
